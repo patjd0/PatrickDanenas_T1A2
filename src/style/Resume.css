@@ -1,0 +1,105 @@
+/*nav bar*/
+a:visited { color:navy; }
+a:hover { color:chocolate; }
+/* nav bar/ image crossover */
+a { 
+    color:navy;
+    text-decoration: none;
+     position:flex;
+    display:center;
+    border: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items:space-between;
+    margin: 20px;
+}
+/*social heading settings*/
+.socials{
+    display: flex;
+    justify-content: flex-end; 
+    background: rgba(0, 0, 128, 0.603);   
+}
+/*github link*/
+.git:hover{
+    transform:rotate(360deg);
+    transition:2s;
+}
+/*twitter link*/
+.twi:hover{
+    transform:rotate(360deg);
+    transition: 2s;
+}
+/*linkedin link*/
+.lin:hover{
+    transform:rotate(360deg);
+    transition: 2s;
+}
+
+
+/* heading 1 settings*/
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*heading 3 settings*/
+h3{
+    color: navy;
+}
+
+/*white line*/
+.box {
+    border: solid navy;
+}
+
+/*body settings*/
+body {
+    color:navy;
+    width: 100%;
+} 
+
+/*image settings*/
+ img{
+   width:35px;
+   height:35px;
+ }
+
+   /* left box settings */       
+ #left {
+     float:left; 
+     flex-direction: column;
+     background:rgb(184, 184, 184);
+     border-radius: 2%;
+     width:300px;
+     height:430px;
+     margin:5px;
+ }
+ 
+ /*right box settings*/
+ #right {
+     float:left; 
+     width:65%;
+     height:280px;
+ }
+ 
+ /*footer*/ 
+ .footer{
+    width:79vw;
+    height: 8vh;
+    padding: 1px;
+    display:relative;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 128, 0.603);
+} 
+/*media querie for footer and text*/
+@media (max-width: 500px){
+    .footer{
+        height: 6vh;
+    }
+    body{
+        font-weight: bold;
+    }
+}
+
+
+

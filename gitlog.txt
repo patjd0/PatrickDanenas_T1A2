@@ -1,0 +1,13 @@
+
+pjdnas@MSI:~/projects/PatrickDanenas_T1A2$ git log
+commit 443ce49dd896f2513ca5a80ad88491c247985662 (HEAD -> master)
+Author: pjdanenas <pj_danenas@hotmail.com>
+Date:   Sun Mar 6 20:27:31 2022 +1100
+
+    second commit
+
+commit bd22ebfed16d5d8a60d4b9252defb6edc2bc74cc
+Author: pjdanenas <pj_danenas@hotmail.com>
+Date:   Sun Mar 6 19:55:39 2022 +1100
+
+    initial commit

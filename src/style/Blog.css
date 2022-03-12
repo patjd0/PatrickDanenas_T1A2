@@ -1,0 +1,136 @@
+/* nav bar */
+a:visited { color:navy; }
+a:hover { color:chocolate; }
+/* nav bar/ image crossover */
+a { 
+    text-decoration: none;
+     position:flex;
+    display:center;
+    border: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items:space-between;
+    margin: 20px;
+}
+/*social heading settings*/
+.socials{
+    display: flex;
+    justify-content: flex-end; 
+    background: rgba(0, 0, 128, 0.603);   
+}
+/*github link*/
+.git:hover{
+    transform:rotate(360deg);
+    transition:2s;
+}
+/*twitter link*/
+.twi:hover{
+    transform:rotate(360deg);
+    transition: 2s;
+}
+/*linkedin link*/
+.lin:hover{
+    transform:rotate(360deg);
+    transition: 2s;
+}     
+/*blog list*/
+ul{
+    padding:none;
+    list-style: none;
+    display:contents;
+}
+/*heading*/
+h1{
+     color:navy;
+     text-align:center;
+ }
+ /*date text*/
+ h4{
+     color:rgba(0, 0, 128, 0.335);
+ }
+ /*heading underline*/
+ .box {
+    border: solid navy;
+    margin: 3px;
+}
+ /* container*/
+.bossbox{
+        color:navy;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 1rem;
+}
+
+/* all my boxes*/
+.box1{
+    padding: 3px;
+    background:rgba(128, 128, 128, 0.274);
+    width:45%;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.698);
+ }
+ /*fun box*/
+ .box2{
+     padding:20px;;
+     background: rgb(199, 12, 59);
+     width:75px;
+     height:75px;
+     transition: 2s;
+     border: solid rgb(255, 251, 0) 3px;
+ }
+ /*funbox hover settings*/
+ .box2:hover{
+    width:160px;
+    height:200px;
+    animation-name: colorful;
+    animation-duration: 2s;
+    transform: rotate(360deg);
+    animation-iteration-count: infinite;
+    border-color: rgb(182, 104, 255);
+    color:rgb(255, 211, 17);
+     }     
+ @keyframes colorful{
+     0%{
+         background: orange;
+     }
+     20%{
+         background: pink;
+         width:200px;
+         height:200px;
+     }
+     40%{
+         background: blue;
+         border-color: red;
+         border-radius: 50%;
+     }
+     60%{
+         background: green;
+     }
+     80%{
+         background: yellow;
+     }
+     100%{
+         background: purple;
+         border-color:blue;
+ }
+}
+ /*footer*/
+.footer{
+    width:100vw;
+    height: 11vh;
+    box-sizing: border-box;
+    color: navy;
+    background-color: rgba(0, 0, 128, 0.603);
+    margin-top: auto;
+}
+/*media querie for footer and text*/
+@media (max-width: 500px){
+    .footer{
+        height: 6vh;
+    }
+    body{
+        font-weight: bold;
+    }
+}
